@@ -1,0 +1,28 @@
+.play{
+    width: 16%;
+    border:4px solid;
+    border-color: white;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;    
+    background-color: #b78a19;
+    margin-left: 42%;
+    margin-top: 400px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.background-color{
+    background-color:bisque;
+}
+
+.div{
+    border: solid 2px;
+    border-color: brown;
+    background-color: blanchedalmond;
+    width: 16%;
+    margin-left: 42%;
+    height: 20px;
+    border-radius: 30px;
+    text-align: center;
+}

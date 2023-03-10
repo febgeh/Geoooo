@@ -1,0 +1,202 @@
+@media screen and (max-width: 1700px){
+
+    .pros_text{
+      font-size: 20px;
+      padding: 30px;
+    }
+  }
+  /*Projects button*/
+
+  @media screen and (min-width: 2000px){
+    .vestland{
+      margin-left: 44%;
+    }
+    .item{
+      margin-left: -4px;
+    }
+    
+  }
+  
+  @media screen and (min-width: 2600px){
+  .knapp1{
+    margin-top: 500px;
+  }
+  .knapp2{
+    margin-top: 500px;
+  }
+  .pil{
+    display: none;
+  }
+  }
+
+  /*for the margin of the flex container(container1) and for small buttod and padding fails on differend resolutions*/
+
+  @media screen and (max-width: 1000px){
+    .dropbtn{
+    font-size: 14px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  ul{
+    margin: 8px;
+  
+  }
+    .vestland{
+      height: 40px;
+      width: 120px;
+      margin-top: 0px;
+      margin-left: 40%;
+    }
+    
+    h1{
+      font-size: 40px;
+      margin-left: 5%;
+    }
+    .knapp1{
+      width: 24%;
+      height: 50px;
+      margin-left: 1%;
+      margin-right: 0%;
+    }
+    .knapp1:hover{
+      background-color: #c9dc20;
+      transition: background-color 0s ease;
+    }
+    .knapp2:hover{
+      background-color: #c9dc20;
+      transition: background-color 0s ease;
+    }
+    .knapp2{
+      width: 23%;
+      height: 50px;
+      margin-right: 0%;
+      margin-left: 1%;
+    }
+    .studie_link{
+      margin-top: 15px;
+      font-size: 9px;
+      padding: 2px;
+      margin-left: -8px;
+    }
+    .link{
+      margin-top: 10px;
+      font-size: 9px;
+      padding: 2px;
+      margin-left: -8px;
+    }
+    body{
+      margin: 0px;
+  
+    }
+  
+  img{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  .container1{
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    margin-top: 50px;
+  }
+  
+  .item{
+    height: 200px;
+    margin-left: 0px;
+  }
+    
+    .para{
+      font-size: 13px;
+      margin-left: -100px;
+    }
+    
+    .hara{
+      color: #030107;
+      font-size: 18px;
+    }
+  
+    .prosjekter{
+      margin: 35%;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      width: 30%;
+      height: 50px;
+    }
+  .pros_text{
+    font-size: 15px;
+    padding: 14px;
+  }
+  
+  .prosjekter:hover{
+    margin: 35%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 30%;
+    height: 50px;
+  }
+  
+  .pil{
+    display: none;
+  }
+  
+  }
+  /*changes for mobile and tablet*/
+  @media screen and (max-width: 800px){
+    body{
+      background-image: url('../bilder/white.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  }
+  /*Different background image on a screen with less than 800 pixels.*/
+  
+  @media screen and (max-width: 25.9375rem){
+    img{
+      width: 150px;
+      height: 120px;
+    }
+    .item{
+      height: 150px;
+    }
+    .para{
+      margin-left: -120px;
+      margin-top: 15px;
+    }
+    .vestland{
+      margin-left: 34%;
+    }
+  }
+  /*More chagens for mobile*/
+
+  @media screen and (max-width: 375px){
+    .studie_link{
+      display: none;
+    }
+    .studie_link1{
+      display: block;
+      font-size: 9px;
+      text-decoration: none;
+      color: white;
+      padding: 20px;
+      margin-left: -5px;
+      float: center;
+    }
+    .link{
+      font-family: 20px;
+    }
+    .dropbtn{
+      font-size: 10px;
+    }
+    h1{
+      font-size: 30px;
+    }
+  }
+  /*And lastly even more changes for mobile (like smaler text).*/
+  @media screen and (max-width: 330px){
+    .GeoHub-knapp{
+      font-size: 10px;
+      margin-top: 5px;
+    }
+    }

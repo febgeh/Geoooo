@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./skole.css">
+</head>
+<body id="body" class="background-color">
+
+    <div id="div" class="div">
+        <script>
+            function guessGame(){
+                //random tall fra 0-10.
+                number = Math.floor(Math.random()*11);
+                document.write(number);
+                let guess = prompt("Choose a number")
+                //så lenge guess ikke er det valgte tallet.
+                while (guess != number) {
+                    if (number < guess) {
+                        guess = prompt("You've guessed too high! Keep guessing!")
+                        
+                    } else {
+                        guess = prompt("You've guessed too low! Keep guessing!");
+                    }
+                }
+                document.write(" = your guess. Good Job!");   
+            }
+            guessGame(); 
+        </script>
+    
+    </div>
+    <!-- refresher siden -->
+    <div class="play"  onclick="window.location.reload(true)">play</div>
+    <!-- tilbake til index -->
+    <a href="./index.html">Tilbake</a>
+</body>
+</html>

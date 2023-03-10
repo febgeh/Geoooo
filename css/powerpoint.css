@@ -1,0 +1,164 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: 2px solid;
+    background-color: #e0f0c0;
+    margin: 200px;
+    margin-top: 150px;
+    border-radius: 50px;
+}
+.flex-container > *{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pp1{
+    display: none;
+}
+
+@media screen and (max-width: 3200px){
+    .pp{
+        width: 2000px;
+        height: 1150px;
+    }
+}
+@media screen and (max-width: 2700px){
+    .flex-container{
+        margin-top: 50px;
+    }
+    .pp{
+        width: 1500px;
+        height: 880px;
+    }
+}
+@media screen and (max-width: 2300px){
+    .flex-container{
+        margin: 100px;
+        margin-top: 50px;
+    }
+    .pp{
+        width: 1200px;
+        height: 700px;
+    }
+}
+@media screen and (max-width: 1800px){
+    .flex-container{
+        margin: 100px;
+        margin: 100px;
+        margin-top: 20px;
+    }
+    .flex-container > *{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .pp{
+        width: 1150px;
+        height: 675px;
+    }
+}
+@media screen and (max-width: 1600px){
+    .flex-container{
+        margin: 100px;
+        margin: 100px;
+        margin-top: 20px;
+    }
+    .flex-container > *{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .pp{
+        width: 800px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .flex-container{
+        margin: 50px;
+        margin-top: 20px;
+
+    }
+    .flex-container > *{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .pp{
+        width: 800px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .flex-container{
+        display: none;
+
+    }
+    .flex-container > *{
+        display: none;
+
+    }
+    .pp{
+        display: none;
+    }
+    .pp1{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px 2fr));
+    }
+    .pp1 > *{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        float: center;
+        margin-bottom: 40px;
+      }
+    img{
+        width: 60%;
+        height: auto;
+        min-width: 300px;
+        outline-style: double;
+        outline-width: 20px;
+    }
+}
+
+  
+
+  
+  
+  @media screen and (max-width: 600px){
+  .dropbtn{
+    font-size: 14px;
+
+  }
+  }
+  
+  @media screen and (max-width: 314px){
+  .dropbtn{
+    font-size: 12px;
+
+  }
+  }
+  @media screen and (max-width: 450px){
+
+    .pp1 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px,2fr));
+    }
+    
+    }
+
+    @media screen and (max-width: 350px){
+
+      img{
+        min-width: 100px;
+        width: 70%;
+      }
+      
+      }
+@media screen and (max-width: 390px){
+  .dropbtn{
+    font-size:11px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+}

@@ -1,0 +1,169 @@
+body{
+  background-image: url('../bilder/ayo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+/* For background image*/
+
+.vestland{
+  width: 300px;
+  height: auto;
+  margin-left: 40%;
+  margin-top: -60px;
+  margin-bottom: 0px;
+}
+/*For vestland logo*/
+
+  h1 {
+    font-size: 3cm;
+    font-family: 'Times New Roman', Times, serif;
+    color:#180836;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+/*Amalie Skram VGS*/
+
+.knapp1{
+  transition: background-color 0.5s ease;
+  height: 170px;
+  width: 20%;
+  border-radius: 6px;
+  margin-right: 6%;
+  background-color: #8d49e6;
+  float:left; 
+  text-align: center;
+  margin-top: 7%;
+}
+
+.knapp1:hover{
+  background-color:#c9dc20;
+  text-shadow: none;
+  
+}
+
+.knapp2{
+  margin-top: 7%;
+  transition: background-color 0.5s ease;
+  height: 170px;
+  width: 20%; 
+  border-radius: 6px;
+  background-color: #8d49e6;
+  float:left; 
+  text-align: center;
+}
+
+.knapp2:hover{
+  background-color:#c9dc20;
+  text-shadow: none;
+  
+}
+/*For the purple buttons*/
+
+.studie_link1{
+  display: none;
+}
+.studie_link{
+  padding: 70px;
+  padding-left: 0%;
+  padding-right: 50%;
+  padding-right: 0px;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+.link{
+  padding: 70px;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+/*For the links inside the buttons*/
+
+
+.container1{
+  display: flex;
+  margin-top: 200px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item{
+  display: flex;
+  height: 250px;
+  background-color: #f8f8e4;
+  flex-basis: 50%;
+  border-radius: 20px;
+  margin-left: -2px;
+  border: 1px solid;
+}
+/*For the 10 bokses*/
+
+
+img{
+  margin: 0%;
+  margin-left: 1%;
+  width: 270px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.para{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 0px;
+  margin-top: 30px;
+  margin-left: -150px;
+}
+
+.hara{
+  color: #030107;
+  margin-top: -5px;
+  white-space:nowrap;
+  margin-left: 30px;
+}
+/*For the things in the bokses*/
+
+.prosjekter{
+  width: 16%;
+  margin: 42%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  height: 100px;
+  background-color: #8d49e6;
+  transition: 1s;
+  overflow: hidden;
+}
+.prosjekter:hover{
+  background-color: #b9ff7b;
+}
+
+.pros_text{
+  color: white;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  transition: 1s;
+  padding: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: -8px;
+}
+.pil{
+  display: flex;
+  margin-left: 46%;
+  width: 10%;
+  height: auto;
+  position: absolute;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove{
+  from {margin-top: 0px;}
+  to {margin-top: 40px;}
+}
+/*For arrow*/
+
